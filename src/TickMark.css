@@ -1,0 +1,9 @@
+.box{
+    transition: all 0.25s 0s ease-in-out;
+}
+
+.box:hover{
+    background-color: orangered;
+
+    cursor: pointer;
+}

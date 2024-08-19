@@ -1,0 +1,84 @@
+.container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+
+
+  /* background-image: url('https://images.pexels.com/photos/2068411/pexels-photo-2068411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% ; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texty{
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: solid white 2px;
+  border-radius: 20px;
+
+  color: white;
+  font-weight: bold;
+
+  /* background-image: url('https://images.pexels.com/photos/7599717/pexels-photo-7599717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% ; */
+}
+
+.pass{
+  width: 100%;
+  padding-top: 10px;
+
+  color: black;
+  font-weight: normal;
+}
+
+
+.pass input{
+  width: 80%;
+  border: black solid 1px;
+  transition: none;
+}
+
+.pass button{
+  width: 20%;
+  color: white;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+  border-right: black solid 1px;
+
+  transition: all 0.5s 0s ease-in-out;
+}
+
+.pass button:hover{
+  size: 1.02;
+  background-color: rgb(45, 45, 183);
+  font-weight: bold;
+}
+
+/* input[type="range"]::-moz-range-track {
+  background: transparent;
+  background: #053a5f;
+  height: 0.2rem;
+} */
+
