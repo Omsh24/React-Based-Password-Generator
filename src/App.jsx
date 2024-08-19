@@ -73,7 +73,7 @@ function App() {
               setCapAllowed((prev) => !prev)
               setCheck1((prev) => !prev)
               }}/>
-            <label htmlFor="ca" >Capital Alphabets: {capAllowed ? 1 : 0}</label>
+            <label htmlFor="ca" >Capital Alphabets: {capAllowed ? 'Allowed' : 'Not-Allowed'}</label>
           </div>
 
           <div className='flex gap-2'>
@@ -83,7 +83,7 @@ function App() {
               setSmallAllowed((prev) => !prev)
               setCheck2((prev) => !prev)
             }}/>
-            <label htmlFor="sa">Small Alphabets: {smallAllowed ? 1 : 0}</label>
+            <label htmlFor="sa">Small Alphabets: {smallAllowed ? 'Allowed' : 'Not-Allowed'}</label>
           </div>
 
           <div className='flex gap-2' >
@@ -93,7 +93,7 @@ function App() {
               setNumAllowed((prev) => !prev)
               setCheck3((prev) => !prev)
             }}/>
-            <label htmlFor="na">Numbers Allowed: {numAllowed ? 1 : 0}</label>
+            <label htmlFor="na">Numbers: {numAllowed ? 'Allowed' : 'Not-Allowed'}</label>
           </div>
 
           <div className='flex gap-2'>
@@ -103,7 +103,7 @@ function App() {
               setCharAllowed((prev) => !prev)
               setCheck4((prev) => !prev)
             }}/>
-            <label htmlFor="cha">Characters Alphabets: {charAllowed ? 1 : 0}</label>
+            <label htmlFor="cha">Symbols: {charAllowed ? 'Allowed' : 'Not-Allowed'}</label>
           </div>
         </div>
       </div>  
